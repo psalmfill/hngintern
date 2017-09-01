@@ -1,0 +1,73 @@
+body, * {
+	margin:0%;
+	padding:0%;
+	text-align:center;
+}
+
+#wrapper {
+	width:30%;
+	margin:5% auto;
+	background:green;
+	padding:10%;
+	border:2px solid green;
+	border-radius:10px;
+}
+#wrapper1 {
+	width:50%;
+	margin:5% auto;
+	background:#FFFFFF;
+	padding:2%;
+	border:2px solid green;
+	border-radius:10px;
+}
+#wrapper label {
+	width:100%;
+	display:block;
+	color:#FFFFFF;
+	font-size:20px;
+}
+#wrapper input[type=text],#wrapper input[type=submit] {
+	
+	margin:2%;
+	padding:2%;
+	border:2px solid #CCCCCC;
+	font-size:20px;
+	border-radius:10px;
+}
+#wrapper input[type=submit] {
+	background:#FFFFFF;
+	color:green;
+	cursor:pointer;
+	width:50%;
+	box-shadow:1px 9px  #000000;
+	border:none;
+}
+#wrapper a {
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:20px;
+}
+#wrapper a:hover {
+	text-decoration:none;
+	color:#000000;
+}
+#wrapper input[type=submit]:active {
+	box-shadow:0px 3px  #CCCCCC;
+	transform: translateY(4px);
+}
+.error{
+	display:block;
+	color:red;
+	background:#FFFFFF;
+}
+#numberview  {
+	width:50%;
+	height:100%;
+	font-size:25px;
+	text-align:left;
+	color:red;
+	border:none;
+	border-radius:10px;
+	
+	
+}
